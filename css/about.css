@@ -1,0 +1,138 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+}
+
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+
+.nav-link:hover{
+    color: rgb(240, 8, 8);
+    transition: 0.3s;
+}
+
+.nav-item{
+    color: 7, 7, 78;
+    font-weight: 500;
+    padding-left: 35px;
+
+}
+
+.btn0{
+    height: 52px;
+    width: 140px;
+    outline: none;
+    border: none;
+    color: rgb(223, 209, 209);
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(99, 36, 36);
+}
+
+.btn0:hover{
+    background: rgb(231, 7, 7);
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(223, 209, 209);
+    outline: none;
+    border: 2px solid rgb(181, 14, 14);
+}
+
+.btn1:hover{
+    background-color: red;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+body{
+    background: rgba(255, 0, 0, 0.553);
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: rgb(130, 20, 20);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.heading{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5 ease;
+}
+
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.about-content .READ-MORE{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3 ease;
+}
+
+.about-content .READ-MORE:hover{
+    background-color: brown;
+
+}

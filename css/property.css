@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+}
+
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+
+.nav-link:hover{
+    color: rgb(240, 8, 8);
+    transition: 0.3s;
+}
+
+.nav-item{
+    color: 7, 7, 78;
+    font-weight: 500;
+    padding-left: 35px;
+
+}
+
+.btn0{
+    height: 52px;
+    width: 140px;
+    outline: none;
+    border: none;
+    color: rgb(223, 209, 209);
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(99, 36, 36);
+}
+
+.btn0:hover{
+    background: rgb(231, 7, 7);
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(223, 209, 209);
+    outline: none;
+    border: 2px solid rgb(181, 14, 14);
+}
+
+.btn1:hover{
+    background-color: red;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/*=======================================main section==============================================*/
+
+.main{
+    background: url(/images/images.jpg) no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(103, 33, 33);
+}
+
+.main input{
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 5%;
+}
+
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: rgb(103, 33, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+}
+
+.btn2:hover{
+    background: rgb(102, 20, 20);
+    transition: all;
+}
+
+.red{
+    color: red;
+}
+
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7,7,78)
+}
+
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    box-shadow: 1px -5px 20px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1PX -5px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1PX -5px 20px 3px rgba(0,0,0,0.75);
+
+}
+
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(129, 31, 31);
+    background: transparent;
+    border-radius: 5PX;
+    color: rgb(116, 27, 27);
+}
+
+.btn3:hover{
+    background: rgb(117, 28, 28);
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+
+}
+
+.resume{
+    background:url(../images/pexels-rdne-6170856\ \(1\).jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.resume .h1{
+    font-size: 3.8rem;
+}
+
+/*=================================================*/
+
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(130, 32, 32);
+}
+
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(90, 16, 16);
+    color: white;
+    transition: all 0.4s;
+
+}
+
+.btn:hover{
+    background: rgb(114, 20, 20);
+    color: white;
+}
+
+.apply{
+    background: url(/images/pexels-felixmittermeier-1146134.jpg)no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+
+}
+
+.red{
+    color: lightblue;
+}
+.pink{
+    color: lightpink;
+}
+

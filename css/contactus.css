@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+}
+
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+
+.nav-link:hover{
+    color: rgb(240, 8, 8);
+    transition: 0.3s;
+}
+
+.nav-item{
+    color: 7, 7, 78;
+    font-weight: 500;
+    padding-left: 35px;
+
+}
+
+.btn0{
+    height: 52px;
+    width: 140px;
+    outline: none;
+    border: none;
+    color: rgb(223, 209, 209);
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(99, 36, 36);
+}
+
+.btn0:hover{
+    background: rgb(231, 7, 7);
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(223, 209, 209);
+    outline: none;
+    border: 2px solid rgb(181, 14, 14);
+}
+
+.btn1:hover{
+    background-color: red;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: rgba(224, 12, 12, 0.564);
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: beige;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(88, 19, 19);
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input-row input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid wheat;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid mintcream;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    background: rgb(88, 19, 19);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+.contact-left h3{
+    color:rgb(88, 19, 19) ;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
